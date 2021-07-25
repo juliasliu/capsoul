@@ -23,6 +23,7 @@ section {
 button, input {
     padding: 15px 20px;
     margin: 0;
+    border-radius: 0;
     font-family: 'Barlow', serif;
 }
 
