@@ -21,7 +21,6 @@ section {
 }
 
 button, input {
-    border-radius: 5px;
     padding: 15px 20px;
     margin: 0;
     font-family: 'Barlow', serif;
@@ -60,10 +59,6 @@ button.primary:hover {
 button.primary:focus,
 button.primary:hover {
     background: #454754;
-}
-
-img {
-    border-radius: 5px;
 }
 
 .row {
@@ -114,7 +109,7 @@ img {
 
 .bottom-text {
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: #5D5F71;
     opacity: 0.8;
     min-width: 250px;
@@ -134,14 +129,6 @@ img {
     justify-content: left;
 }
 
-.subscribe input,
-.subscribe input:focus {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-
 .subscribe button {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
     text-transform: uppercase;
 }
